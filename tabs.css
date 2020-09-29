@@ -1,0 +1,28 @@
+.tabs-container{
+    width:90%;
+   margin:auto;
+   padding-bottom:25px;
+}
+.tabheader{
+    border:none;
+    outline:none;
+    background-color:transparent;
+    color:#eee;
+    padding:6px 12px;
+    font-size:1em;
+    cursor:pointer;
+}
+.active-tab{
+    border:1px solid #eee;
+    border-bottom:none;
+}
+.tabSection{
+ border:1px solid #eee;
+ padding:15px;
+}
+.hide-tab{
+    display: none;
+}
+.show-tab{
+    display:block;
+}
